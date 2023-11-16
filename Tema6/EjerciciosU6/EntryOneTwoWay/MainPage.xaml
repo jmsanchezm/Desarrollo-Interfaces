@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EntryOneTwoWay.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Text="One Way" />
+            <Entry x:Name="entry1" Placeholder="Escribe algo" />
+            <Entry x:Name="entry2" Placeholder="Escribe algo" Text="{Binding Source={x:Reference entry1}, Path=Text, Mode=OneWay}"  />
+
+            <Label Text="One Time" />
+            <Entry x:Name="entry5" Placeholder="Escribe algo" />
+            <Entry x:Name="entry6" Placeholder="Escribe algo" Text="{Binding Source={x:Reference entry5}, Path=Text, Mode=OneTime}" />
+
+            <Label Text="Two Way" />
+            <Entry x:Name="entry3" Placeholder="Escribe algo" />
+            <Entry x:Name="entry4" Placeholder="Escribe algo" Text="{Binding Source={x:Reference entry3}, Path=Text, Mode=TwoWay}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

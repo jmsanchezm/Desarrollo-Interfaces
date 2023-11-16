@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Slider.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="20" Spacing="50">
+            <Label x:Name="labelSlider" Text="Slider" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Slider x:Name="slider" MaximumTrackColor="Red" MinimumTrackColor="Gray" WidthRequest="360" />
+
+            <Label x:Name="labelProgressBar" Text="ProgressBar" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" />
+            <ProgressBar x:Name="progressBar" Progress="{Binding Source={x:Reference slider}, Path=Value, Mode=OneWay}" ProgressColor="Red" WidthRequest="120" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

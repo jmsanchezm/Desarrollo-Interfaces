@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_T7.Views.Pagina3"
+             IconImageSource="bitcoin.png"
+             Title="Pagina 3">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30"
+        VerticalOptions="Center">
+        <Label 
+            Text="Hola soy la pagina 3"
+            HorizontalOptions="Center" />
+        
+        <Button x:Name="Boton3" 
+                Text="Volvamos a la pagina inicial"
+                Clicked="botonPulsado"
+                HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

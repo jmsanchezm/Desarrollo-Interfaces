@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_T7.Views.MainPage"
+             Title="MainPage">
+
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30"
+        VerticalOptions="Center">
+
+        <Entry
+            x:Name="txtNombre"/>
+
+        <Entry
+            x:Name="txtApellidos"
+            Text="Apellidos"/>
+
+        <Button x:Name="Boton" 
+                Text="Vamos a navegar" 
+                Clicked="buttonClicked"/>
+
+        <Button x:Name="irPagina4"
+                Text="Naveguemos a la pagina 4"
+                Clicked="page4Navigate"/>
+
+        <Button x:Name="irPagina5"
+                Text="Naveguemos a la pagina 5"
+                Clicked="page5Navigate"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>

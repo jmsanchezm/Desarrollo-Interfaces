@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BotonesNav.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            x:Name="vslButtons"
+            Spacing="25"
+            Padding="30,0">
+
+            <Button
+                x:Name="Boton1"
+                Text="Boton 1"
+                BackgroundColor="LightBlue"
+                HeightRequest="70"
+                WidthRequest="200"
+                FontAttributes="Bold"
+                FontFamily="Verdana"
+                FontSize="16"
+                BorderColor="Yellow"
+                Margin="30"/>
+
+            <Button x:Name="Boton2">
+                <Button.Text>Boton2</Button.Text>
+                <Button.HorizontalOptions>Center</Button.HorizontalOptions>
+                <Button.VerticalOptions>Center</Button.VerticalOptions>
+                <Button.BackgroundColor>LightBlue</Button.BackgroundColor>
+                <Button.HeightRequest>70</Button.HeightRequest>
+                <Button.WidthRequest>200</Button.WidthRequest>
+                <Button.FontFamily>Verdana</Button.FontFamily>
+                <Button.FontSize>16</Button.FontSize>
+                <Button.FontAttributes>Bold</Button.FontAttributes>
+                <Button.BorderColor>Yellow</Button.BorderColor>
+                <Button.Margin>30</Button.Margin>
+            </Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

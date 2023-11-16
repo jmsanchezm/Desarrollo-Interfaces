@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PlacasSolares
+build_property.ProjectDir = C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema8\EjFinalU8\PlacasSolares\
+
+[C:/Users/jmmoreno/Desktop/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/jmmoreno/Desktop/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/jmmoreno/Desktop/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/ListaTareas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.ListaTareas.xaml
+build_metadata.AdditionalFiles.TargetPath = ListaTareas.xaml
+build_metadata.AdditionalFiles.RelativePath = ListaTareas.xaml
+
+[C:/Users/jmmoreno/Desktop/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/jmmoreno/Desktop/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/jmmoreno/Desktop/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

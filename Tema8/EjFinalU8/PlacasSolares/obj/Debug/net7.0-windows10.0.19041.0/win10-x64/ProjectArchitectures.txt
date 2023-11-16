@@ -1,0 +1,2 @@
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema8\EjFinalU8\Biblioteca\Biblioteca.csproj;neutral
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema8\EjFinalU8\PlacasSolares\PlacasSolares.csproj;x64

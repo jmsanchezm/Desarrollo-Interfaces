@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_T7.Views.PaginaTabbed"
+             xmlns:local="clr-namespace:Ejercicio1_T7.Views"
+             Title="PaginaTabbed"
+            BarBackground="LightBlue"
+            BarBackgroundColor="Black"
+            BarTextColor="Red"
+            SelectedTabColor="Yellow"
+            UnselectedTabColor="AntiqueWhite">
+
+    <local:Pagina1></local:Pagina1>
+    <local:Pagina2></local:Pagina2>
+    <local:Pagina3></local:Pagina3>
+
+</TabbedPage>

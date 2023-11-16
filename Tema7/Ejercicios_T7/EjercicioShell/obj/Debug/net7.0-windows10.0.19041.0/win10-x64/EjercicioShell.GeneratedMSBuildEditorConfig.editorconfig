@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EjercicioShell
+build_property.ProjectDir = C:\github\segundo\interfaces\tema 6\Ejercicios_T7\EjercicioShell\
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/Views/AventuraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.Views.AventuraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AventuraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AventuraPage.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/Views/ComediaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.Views.ComediaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ComediaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ComediaPage.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/Views/GorePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.Views.GorePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GorePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GorePage.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/Views/RomancePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.Views.RomancePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RomancePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RomancePage.xaml
+
+[C:/github/segundo/interfaces/tema 6/Ejercicios_T7/EjercicioShell/Views/TerrorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjercicioShell.Views.TerrorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TerrorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TerrorPage.xaml
