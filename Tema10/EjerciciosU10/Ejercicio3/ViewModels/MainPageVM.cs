@@ -2,88 +2,63 @@
 using System.ComponentModel;
 using System.Windows.Input;
 
-namespace Ejercicio3.ViewModels
+namespace Ejercicio3.ViewModels 
 {
-    public class MainPageVM : INotifyPropertyChanged
+    public class MainPageVM : NotifyVM
     {
 
-        string entry = "0";
+        #region atributos
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        private string resultado;
+        private DelegateCommand numerosCommand;
+        private DelegateCommand demasCommand;
+        
+        #endregion
 
-        public string Entry
+        #region Constructores
+        public MainPageVM()
         {
+            this.resultado = "0";
+
+        }
+        #endregion
+
+        #region Propiedades
+        public string Resultado
+        {
+            get { return this.resultado; }
             private set
             {
-                if (entry != value)
+                if (resultado != value)
                 {
-                    entry = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Entry"));
+                    resultado = value;
+                    NotifyPropertyChanged(nameof(resultado));
                 }
             }
-            get
-            {
-                return entry;
-            }
         }
 
-        public ICommand ClearCommand { private set; get; }
-        public ICommand BackspaceCommand { private set; get; }
-        public ICommand DigitCommand { private set; get; }
-
-        public DecimalKeypadViewModel()
+        public DelegateCommand NumerosCommand
         {
-            ClearCommand = new Command(
-                execute: () =>
-                {
-                    Entry = "0";
-                    RefreshCanExecutes();
-                });
-        
+            get { return numerosCommand; }
         }
 
-        void RefreshCanExecutes()
+        public DelegateCommand DemasCommand
         {
-            ((Command)BackspaceCommand).ChangeCanExecute();
-            ((Command)DigitCommand).ChangeCanExecute();
+            get { return demasCommand; }
+        }
+        #endregion
+
+        #region Comandos
+        private void numerosCommandExecute()
+        {
+
         }
 
-        public DecimalKeypadViewModel()
+        private void demasCommandExecute()
         {
-      
-        BackspaceCommand = new Command(
-            execute: () =>
-            {
-                Entry = Entry.Substring(0, Entry.Length - 1);
-                if (Entry == "")
-                {
-                    Entry = "0";
-                }
-                RefreshCanExecutes();
-            },
-            canExecute: () =>
-            {
-                return Entry.Length > 1 || Entry != "0";
-            });
-       
-        }
 
-        public DecimalKeypadViewModel()
-        {
-            DigitCommand = new Command<string>(
-            execute: (string arg) =>
-            {
-                Entry += arg;
-                if (Entry.StartsWith("0") && !Entry.StartsWith("0."))
-                {
-                    Entry = Entry.Substring(1);
-                }
-                RefreshCanExecutes();
-            },
-            canExecute: (string arg) =>
-            {
-                return !(arg == "." && Entry.Contains("."));
-            });
         }
+        #endregion
+
     }
 }
