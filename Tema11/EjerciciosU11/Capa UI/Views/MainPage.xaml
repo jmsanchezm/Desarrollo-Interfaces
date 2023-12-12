@@ -10,7 +10,7 @@
 
     <VerticalStackLayout>
 
-        <ActivityIndicator IsRunning= "True" />
+        <ActivityIndicator IsRunning= "True"/>
 
         <ListView ItemsSource="{Binding Listado}">
             <ListView.ItemTemplate>

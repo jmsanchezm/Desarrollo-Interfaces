@@ -20,3 +20,25 @@ C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\refint\Capa DAL.dll
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.pdb
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\ref\Capa DAL.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\bin\Debug\net7.0-ios\Capa DAL.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\bin\Debug\net7.0-ios\Capa DAL.pdb
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\bin\Debug\net7.0-ios\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\bin\Debug\net7.0-ios\Capa Entidades.pdb
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\actool\_PartialAppManifest.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\actool\_BundleResourceWithLogicalName.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\actool\_ProcessedImageAssetsPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\coremlc\_PartialAppManifest.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\_ProcessedBundleResourcesPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\_ProcessedContentPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.csproj.AssemblyReference.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.AssemblyInfoInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.AssemblyInfo.cs
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.csproj.CoreCompileInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.csproj.CopyComplete
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\refint\Capa DAL.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\Capa DAL.pdb
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa DAL\obj\Debug\net7.0-ios\ref\Capa DAL.dll

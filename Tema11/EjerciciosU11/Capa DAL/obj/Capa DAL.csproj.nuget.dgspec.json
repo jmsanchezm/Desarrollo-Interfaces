@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj": {}
+    "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj": {
+    "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj",
+        "projectUniqueName": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj",
         "projectName": "Capa DAL",
-        "projectPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj",
-        "packagesPath": "C:\\Users\\sanch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\obj\\",
+        "projectPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\Capa DAL.csproj",
+        "packagesPath": "C:\\Users\\jmmoreno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa DAL\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmmoreno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,40 +38,40 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
-                "projectPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
+              "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
+                "projectPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
               }
             }
           },
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
-                "projectPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
+              "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
+                "projectPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
-                "projectPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
+              "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
+                "projectPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
-                "projectPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
+              "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
+                "projectPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
               }
             }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
-                "projectPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
+              "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
+                "projectPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj"
               }
             }
           }
@@ -104,10 +104,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -140,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
@@ -163,10 +169,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -268,7 +280,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -291,10 +303,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -330,7 +348,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -353,10 +371,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -393,7 +417,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -416,16 +440,22 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Microsoft.WindowsAppSDK": {
@@ -473,25 +503,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
+    "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj",
         "projectName": "Capa Entidades",
-        "projectPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj",
-        "packagesPath": "C:\\Users\\sanch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanch\\OneDrive\\Escritorio\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\obj\\",
+        "projectPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\Capa Entidades.csproj",
+        "packagesPath": "C:\\Users\\jmmoreno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmmoreno\\Desktop\\2DAM\\Desarrollo-Interfaces\\Tema11\\EjerciciosU11\\Capa Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmmoreno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -557,10 +587,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             }
           },
@@ -589,7 +625,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
@@ -612,10 +648,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Xamarin.Android.Glide": {
@@ -713,7 +755,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -736,10 +778,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             }
           },
@@ -771,7 +819,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -794,10 +842,16 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             }
           },
@@ -830,7 +884,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -853,16 +907,22 @@
               "version": "[7.0.0, )",
               "autoReferenced": true
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "autoReferenced": true
+            },
             "Microsoft.Maui.Graphics": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.96, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Microsoft.WindowsAppSDK": {
@@ -906,7 +966,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

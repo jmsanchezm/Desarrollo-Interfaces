@@ -7,39 +7,53 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace Capa_UI.Models.ViewModel
 {
-    public class ListadoPersonasVM
+    public class ListadoPersonasVM : INotifyPropertyChanged
     {
+        #region atributos
 
-        private Task<ObservableCollection<clsPersona>> listado;
+        private List<clsPersona> listadoPersonas;
+
+        private ObservableCollection<clsPersona> listado;
         
+        #endregion
 
+        #region constructores
         public ListadoPersonasVM()
         {
-            try
-            {
-                listado = clsListadoPersonasBL.ListadoCompletoPersonas();
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }
+           cargarPersonas();
+ 
         }
 
+        #endregion
 
-        public Task<ObservableCollection<clsPersona>> Listado
+
+        #region propiedades
+        public ObservableCollection<clsPersona> Listado
         {
             get { return listado; }
-            set { listado = value; }
 
         }
+        #endregion
 
-  
 
-        
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
+
+        /// <summary>
+        /// Funcion que llama a la capa BL para obtener el listado de personas
+        /// </summary>
+        /// <returns></returns>
+        private async Task cargarPersonas()
+        {
+            listadoPersonas = await clsListadoPersonasBL.ListadoCompletoPersonas();
+            listado = new ObservableCollection<clsPersona>(listadoPersonas);
+
+        }
     }
 
 

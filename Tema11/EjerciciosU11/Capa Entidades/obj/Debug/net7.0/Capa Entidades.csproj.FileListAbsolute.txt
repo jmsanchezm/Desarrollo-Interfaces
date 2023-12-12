@@ -10,3 +10,15 @@ C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\refint\Capa Entidades.dll
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.pdb
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\ref\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\bin\Debug\net7.0\Capa Entidades.deps.json
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\bin\Debug\net7.0\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\bin\Debug\net7.0\Capa Entidades.pdb
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.csproj.AssemblyReference.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.AssemblyInfoInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.AssemblyInfo.cs
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\refint\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\Capa Entidades.pdb
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0\ref\Capa Entidades.dll

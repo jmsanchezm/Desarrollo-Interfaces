@@ -1,8 +1,9 @@
 ﻿namespace Capa_Entidades
 {
-    // All the code in this file is included in all platforms.
     public class clsPersona
     {
+        #region atributos
+
         private int id;
         private string nombre;
         private string apellidos;
@@ -10,6 +11,10 @@
         private string direccion;
         private string foto;
         private int idDepartamento;
+
+        #endregion
+
+        #region constructores
 
         public clsPersona()
         {
@@ -33,6 +38,10 @@
             this.foto = foto;
             this.idDepartamento = idDepartamento;
         }
+
+        #endregion
+
+        #region propiedades
 
         public int ID {
             get { return id; }
@@ -69,5 +78,6 @@
             set { idDepartamento = value; }
         }
 
+        #endregion
     }
 }

@@ -17,3 +17,22 @@ C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\refint\Capa Entidades.dll
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.pdb
 C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\ref\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\bin\Debug\net7.0-maccatalyst\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\bin\Debug\net7.0-maccatalyst\Capa Entidades.pdb
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\actool\_PartialAppManifest.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\coremlc\_PartialAppManifest.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\_ProcessedBundleResourcesPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\_ProcessedContentPath.items
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.csproj.AssemblyReference.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.AssemblyInfoInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.AssemblyInfo.cs
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\refint\Capa Entidades.dll
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\Capa Entidades.pdb
+C:\Users\jmmoreno\Desktop\2DAM\Desarrollo-Interfaces\Tema11\EjerciciosU11\Capa Entidades\obj\Debug\net7.0-maccatalyst\ref\Capa Entidades.dll

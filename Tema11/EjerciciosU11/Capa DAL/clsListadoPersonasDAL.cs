@@ -8,12 +8,18 @@ namespace Capa_DAL
     // All the code in this file is included in all platforms.
     public class clsListadoPersonasDAL
     {
-        public static async Task<ObservableCollection<clsPersona>> listadoCompletoPersonas() 
+        /// <summary>
+        /// Función que devuelve el listado completo de personas de la API
+        /// Precondiciones: No hay
+        /// Postcondiciones: El listado siempre devolverá un listado de personas o vacío
+        /// </summary>
+        /// <returns> Listado de personas </returns>
+        public static async Task<List<clsPersona>> listadoCompletoPersonas() 
         {
-            string urlBase = "https://crudnervion.azurewebsites.net/api/";
-            string url = $"{urlBase}personas";
 
-            ObservableCollection<clsPersona> listado = new ObservableCollection<clsPersona>();
+            string url = $"{clsConexion.cadenaConexion()}personas";
+
+            List<clsPersona> listado = new List<clsPersona>();
 
             HttpClient miCliente;
 
@@ -22,25 +28,18 @@ namespace Capa_DAL
             string datosJSON;
 
             miCliente = new HttpClient();
+           
+            miRespuesta = await miCliente.GetAsync(url);
 
-            try
+            if (miRespuesta.IsSuccessStatusCode)
             {
-                miRespuesta = await miCliente.GetAsync(url);
+                datosJSON = await miCliente.GetStringAsync(url);
 
-                if (miRespuesta.IsSuccessStatusCode)
-                {
-                    datosJSON = await miCliente.GetStringAsync(url);
+                miCliente.Dispose();
 
-                    miCliente.Dispose();
-
-
-                    listado = JsonConvert.DeserializeObject<ObservableCollection<clsPersona>>(datosJSON);
-                }
+                listado = JsonConvert.DeserializeObject<List<clsPersona>>(datosJSON);
             }
-            catch (Exception e)
-            {
-                throw e;
-            }
+       
             return listado;
         }
     }
