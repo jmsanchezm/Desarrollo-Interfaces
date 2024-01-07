@@ -8,18 +8,18 @@
         <local:ListadoPersonasVM/>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="25" Padding="30,0">
 
-        <ActivityIndicator IsRunning= "True"/>
+        <ActivityIndicator IsRunning= "{Binding IsRunning}"/>
 
         <ListView ItemsSource="{Binding Listado}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout>
+                        <VerticalStackLayout Padding="10">
                             <Label Text="{Binding Nombre}"/>
                             <Label Text="{Binding Apellido}"/>
-                        </StackLayout>
+                        </VerticalStackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

@@ -1,0 +1,19 @@
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\bin\Debug\net7.0-ios\Capa Entidades.dll
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\bin\Debug\net7.0-ios\Capa Entidades.pdb
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\actool\_PartialAppManifest.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\actool\_BundleResourceWithLogicalName.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\actool\_ProcessedImageAssetsPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\coremlc\_PartialAppManifest.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\_ProcessedBundleResourcesPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\_ProcessedContentPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\Capa Entidades.csproj.AssemblyReference.cache
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\Capa Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\Capa Entidades.AssemblyInfoInputs.cache
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\Capa Entidades.AssemblyInfo.cs
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\Capa Entidades.dll
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\refint\Capa Entidades.dll
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\Capa Entidades.pdb
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa Entidades\obj\Debug\net7.0-ios\ref\Capa Entidades.dll

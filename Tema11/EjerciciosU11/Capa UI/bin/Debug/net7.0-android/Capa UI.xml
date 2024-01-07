@@ -4,5 +4,11 @@
         <name>Capa UI</name>
     </assembly>
     <members>
+        <member name="M:Capa_UI.Models.ViewModel.ListadoPersonasVM.cargarPersonas">
+            <summary>
+            Funcion que llama a la capa BL para obtener el listado de personas
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

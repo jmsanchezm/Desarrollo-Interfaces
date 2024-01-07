@@ -4,5 +4,19 @@
         <name>Capa DAL</name>
     </assembly>
     <members>
+        <member name="M:Capa_DAL.clsConexion.cadenaConexion">
+            <summary>
+            Función que devuelve la cadena de la URI de la API
+            </summary>
+            <returns> URI de la API </returns>
+        </member>
+        <member name="M:Capa_DAL.clsListadoPersonasDAL.listadoCompletoPersonas">
+            <summary>
+            Función que devuelve el listado completo de personas de la API
+            Precondiciones: No hay
+            Postcondiciones: El listado siempre devolverá un listado de personas o vacío
+            </summary>
+            <returns> Listado de personas </returns>
+        </member>
     </members>
 </doc>

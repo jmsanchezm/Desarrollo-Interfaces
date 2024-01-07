@@ -18,15 +18,19 @@ namespace Capa_UI.Models.ViewModel
         private List<clsPersona> listadoPersonas;
 
         private ObservableCollection<clsPersona> listado;
-        
+
+        private bool isRunning;
+
         #endregion
 
         #region constructores
         public ListadoPersonasVM()
         {
+
            cargarPersonas();
- 
-        }
+           isRunning=true;
+
+    }
 
         #endregion
 
@@ -37,6 +41,12 @@ namespace Capa_UI.Models.ViewModel
             get { return listado; }
 
         }
+
+        public bool IsRunning
+        {
+            get { return isRunning; }
+        }
+
         #endregion
 
 
@@ -53,7 +63,18 @@ namespace Capa_UI.Models.ViewModel
             listadoPersonas = await clsListadoPersonasBL.ListadoCompletoPersonas();
             listado = new ObservableCollection<clsPersona>(listadoPersonas);
 
+            isRunning = false;
+
+            OnPropertyChanged("Listado");
+            OnPropertyChanged("IsRunning");
+
         }
+
+        private void OnPropertyChanged(String property)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
+        }
+
     }
 
 

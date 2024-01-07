@@ -4,5 +4,12 @@
         <name>Capa BL</name>
     </assembly>
     <members>
+        <member name="M:Capa_BL.clsListadoPersonasBL.ListadoCompletoPersonas">
+            <summary>
+            Funcion que llama a la capa DAL para obtener el listado de personas
+            y aplicarles reglas de negocio correspondientes
+            </summary>
+            <returns> Listado de personas con regla aplicada </returns>
+        </member>
     </members>
 </doc>

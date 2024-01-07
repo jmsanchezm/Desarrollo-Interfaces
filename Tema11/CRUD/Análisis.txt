@@ -1,0 +1,69 @@
+Capa Entities:
+	clsPersona
+	clsDepartamento
+	
+
+Capa DAL:
+	clsConexion:
+	       public static string getConexion()
+
+	clsListadoPersonasDAL:
+	       public async static Task<List<clsPersona>> listadoCompletoPersonas() 
+
+	clsListadosDepartamentosDAL:
+	       public async static Task<List<clsDepartamento>> listadoCompletoDepartamento() 
+
+	ManejadorasDAL:
+
+		clsManejadoraPersonaDAL:
+	      		public async static Task<HttpStatusCode> Insert(clsPersona pers)
+		    	public async static Task<HttpStatusCode> Delete(int id)
+		       	public async static Task<HttpStatusCode> Update(clsPersona pers)
+
+		clsManejadoraDepartamentoDAL
+	      		public async static Task<HttpStatusCode> Insert(clsDepartamento depto)
+		    	public async static Task<HttpStatusCode> Delete(int id)
+		       	public async static Task<HttpStatusCode> Update(clsDepartamento depto)
+
+		
+
+Capa BL:
+	clsListadoPersonasBL
+		public async static Task<List<clsPersona>> listadoPersonas() -- Aplico la regla de negocio de que los viernes y los sábados sólo mostrará las personas mayores de edad
+        	public static List<clsPersona> mayorEdad(List<clsPersona> listado) -- Filtro el listado por personas mayores de edad
+
+	clsListadoDepartamentosBL
+		public static List<clsDepartamentos>listadoCompletoDepartamentos()
+
+	ManejadorasBL:
+		clsManejadoraPersonaBL
+	      		public async static Task<HttpStatusCode> Insert(clsPersona pers)
+		    	public async static Task<HttpStatusCode> Delete(int id) -- Aplicando la regla de negocio (Domingo no se puede eliminar personas)
+		       	public async static Task<HttpStatusCode> Update(clsPersona pers)
+
+		clsManejadoraDepartamentoBL
+			public async static Task<HttpStatusCode> Insert(clsDepartamento depto)
+		    	public async static Task<HttpStatusCode> Delete(int id)
+		       	public async static Task<HttpStatusCode> Update(clsDepartamento depto)
+			
+
+Capa UI:
+
+	Views:
+			
+	Models:
+		ViewModel:
+			Index (Pantalla Inicial)
+			clsListadoPersonasConPersonaSeleccionada
+			clsListadoDepartamentosConDepartamentoSeleccionado
+			ManejadorasPersona:
+				Insert
+				Delete
+				Update
+			ManejadorasDepartamento:
+				Insert
+				Delete
+				Update			
+			
+
+
