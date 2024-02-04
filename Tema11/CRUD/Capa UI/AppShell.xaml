@@ -6,9 +6,17 @@
     xmlns:local="clr-namespace:Capa_UI"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab>
+            <ShellContent Title="Personas"  
+                          Route="HomePage" 
+                          ContentTemplate="{DataTemplate local:HomePage}" />
+        </Tab>
+        <Tab>
+            <ShellContent Title="Departamentos" 
+                          Route="AboutPage" 
+                          ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
 
+    </FlyoutItem>
 </Shell>

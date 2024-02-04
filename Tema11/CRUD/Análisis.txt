@@ -50,20 +50,31 @@ Capa BL:
 Capa UI:
 
 	Views:
+		DetalleDepartamento
+		DetallePersona
+		EditarDepartamento
+		EditarPersona
+		InsertaDepartamento
+		InsertaPersona
+		ListadoDepartamentos
+		ListadoPersonas
+		Index
 			
 	Models:
-		ViewModel:
-			Index (Pantalla Inicial)
-			clsListadoPersonasConPersonaSeleccionada
-			clsListadoDepartamentosConDepartamentoSeleccionado
-			ManejadorasPersona:
-				Insert
-				Delete
-				Update
-			ManejadorasDepartamento:
-				Insert
-				Delete
-				Update			
+		clsVMBase
+		DelegateCommand
+
+	ViewModel:
+		clsDetallesPersonaVM
+		clsListadoPersonasPersonaSeleccionadaVM
+		clsListadoDepartamentosDepartamentoSeleccionadoVM
+		clsDetallesDepartamentoVM
+
+		ManejadorasVM:
+			clsInsertarPersonaVM
+			clsInsertarDepartamentoVM
+			clsEditarPersonaVM
+			clsEditarDepartamentoVM
+
+					
 			
-
-
