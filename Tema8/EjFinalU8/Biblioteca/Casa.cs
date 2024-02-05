@@ -1,6 +1,6 @@
 ﻿namespace Biblioteca
 {
-    // All the code in this file is included in all platforms.
+    
     public class Casa
     {
         #region atributos
@@ -9,6 +9,8 @@
         private long telefono=0;
         private string urlImage="";
         private Boolean visitado=false;
+        private Boolean apto= false;
+        private string notas = "";
 
         #endregion
 
@@ -30,13 +32,16 @@
             this.visitado = visitado;
         }
 
-        public Casa(string nombreCasa, string direccion, long telefono, string urlImage, bool visitado)
+        public Casa(string nombreCasa, string direccion, long telefono, string urlImage, bool visitado, bool apto, string notas)
         {
             this.nombreCasa = nombreCasa;
             this.direccion = direccion;
             this.telefono = telefono;
             this.urlImage = urlImage;
             this.visitado = visitado;
+            this.apto = apto;
+            this.notas = notas;
+
         }
 
         #endregion
@@ -44,19 +49,18 @@
         public String NombreCasa 
         { 
             get { return nombreCasa; }
-            set { nombreCasa = value;}
+            
         }
 
         public String Direccion 
         { 
             get {  return direccion; } 
-            set {  direccion = value;} 
+            
         }
 
         public String UrlImage
         { 
-            get { return urlImage; } 
-            set {  urlImage = value;} 
+            get { return urlImage; }  
         }
         public bool Visitado 
         {
@@ -67,6 +71,16 @@
         {
             get { return telefono; }
             set { telefono = value; }
+        }
+        public Boolean Apto 
+        {
+            get { return apto; }
+        }
+
+        public string Notas
+        {
+            get { return notas; }
+            set { notas = value; }
         }
 
         #endregion

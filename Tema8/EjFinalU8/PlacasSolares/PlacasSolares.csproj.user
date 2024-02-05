@@ -17,6 +17,9 @@
     <MauiXaml Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="CitaDetallada.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="ListaTareas.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

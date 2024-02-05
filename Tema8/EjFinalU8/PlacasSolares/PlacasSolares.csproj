@@ -49,7 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\camara.png" />
+	  <None Remove="Resources\Images\casa_rodriguez_ruiz.jpg" />
 	  <None Remove="Resources\Images\logo_verde.png" />
+	  <None Remove="Resources\Images\volver_atras.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -61,6 +64,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CitaDetallada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ListaTareas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

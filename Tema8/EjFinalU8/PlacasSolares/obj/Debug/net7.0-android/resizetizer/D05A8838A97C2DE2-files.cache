@@ -1,4 +1,15 @@
-﻿obj\Debug\net7.0-android\resizetizer\r\drawable\logo_verde.png
+﻿obj\Debug\net7.0-android\resizetizer\r\drawable\camara.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_caballero_gil.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_de_isla.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_gonzalez_martin.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_jimenez_arenas.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_jimenez_pelo.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_miguel_gonzalez.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_rodriguez_ruiz.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\casa_sanchez_moreno.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\logo_verde.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\return.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\volver_atras.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png

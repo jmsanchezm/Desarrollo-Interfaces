@@ -22,6 +22,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.AppShell.xam
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/sanch/OneDrive/Escritorio/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/CitaDetallada.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.CitaDetallada.xaml
+build_metadata.AdditionalFiles.TargetPath = CitaDetallada.xaml
+build_metadata.AdditionalFiles.RelativePath = CitaDetallada.xaml
+
 [C:/Users/sanch/OneDrive/Escritorio/2DAM/Desarrollo-Interfaces/Tema8/EjFinalU8/PlacasSolares/ListaTareas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.ListaTareas.xaml

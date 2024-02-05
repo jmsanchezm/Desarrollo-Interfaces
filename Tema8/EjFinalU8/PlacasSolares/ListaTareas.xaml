@@ -3,19 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlacasSolares.ListaTareas"
              Title="ListaTareas">
-    <VerticalStackLayout>
-        <ImageButton
-            Source=""/>
-        <ListView
-            ItemsSource="{Binding Casas}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
 
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+    <ScrollView>
+        <VerticalStackLayout>
+            <ListView x:Name="ListaCitasView"
+                      ItemTapped="ListaCitasView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="100"
+                                  x:Name="Casa">
+                            <HorizontalStackLayout>
 
-    </VerticalStackLayout>
+                                <CheckBox
+                                    x:Name="Visitado"
+                                    IsChecked="False"
+                                    Color="#51B178"/>
+
+                                <Image  Source="{Binding UrlImage}"
+                                        Aspect="AspectFit"
+                                        HorizontalOptions="End"
+                                        WidthRequest="100"
+                                        HeightRequest="100"/>
+
+                                <VerticalStackLayout
+                                        VerticalOptions="Center">
+
+                                    <Label  Text= "{Binding NombreCasa}"
+                                            x:Name="nombreCasa"
+                                            FontAttributes="Bold"
+                                            Padding="20,0,0,0"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center"/>
+
+                                    <Label  Text="{Binding Direccion}"
+                                            FontAttributes="Italic"
+                                            VerticalOptions="End"
+                                            Padding="20,0,0,0"
+                                            FontSize="10"/>
+
+                                </VerticalStackLayout>
+
+                            </HorizontalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+        </VerticalStackLayout>
+        
+    </ScrollView>
 </ContentPage>
