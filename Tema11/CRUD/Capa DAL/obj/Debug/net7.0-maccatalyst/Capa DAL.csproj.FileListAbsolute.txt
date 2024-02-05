@@ -1,0 +1,22 @@
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\bin\Debug\net7.0-maccatalyst\Capa DAL.dll
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\bin\Debug\net7.0-maccatalyst\Capa DAL.pdb
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\bin\Debug\net7.0-maccatalyst\Capa Entidades.dll
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\bin\Debug\net7.0-maccatalyst\Capa Entidades.pdb
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\actool\_PartialAppManifest.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\coremlc\_PartialAppManifest.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\_ProcessedBundleResourcesPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\_ProcessedContentPath.items
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.csproj.AssemblyReference.cache
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.AssemblyInfoInputs.cache
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.AssemblyInfo.cs
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.csproj.CoreCompileInputs.cache
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.csproj.CopyComplete
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.dll
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\refint\Capa DAL.dll
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\Capa DAL.pdb
+C:\Users\sanch\OneDrive\Escritorio\2DAM\Desarrollo-Interfaces\Tema11\CRUD\Capa DAL\obj\Debug\net7.0-maccatalyst\ref\Capa DAL.dll

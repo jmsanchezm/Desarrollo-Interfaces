@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Capa DAL</name>
+    </assembly>
+    <members>
+        <member name="M:Capa_DAL.clsConexion.getConexion">
+            <summary>
+            Metodo que devuelve un string con la URI de la api
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Capa_DAL.clsListadoDepartamentosDAL.listadoCompletoDeptos">
+            <summary>
+            Metodo que devuelve un listado de departamentos que ofrece nuestra API
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Capa_DAL.clsManejadoraDeptoDAL.InsertarDeptoDAL(Capa_Entities.clsDepartamento)">
+            <summary>
+            Metodo que inserta un departamento en la base de datos
+            Precondiciones: Le debe llegar un departamento
+            </summary>
+            <param name="depto"></param>
+            <returns>Devuelve el codigo de estado</returns>
+        </member>
+        <member name="M:Capa_DAL.clsManejadoraDeptoDAL.EditarDeptoDAL(Capa_Entities.clsDepartamento)">
+            <summary>
+            Metodo que edita un departamento de la base de datos
+            Precondiciones: Le debe llegar un departamento 
+            </summary>
+            <param name="depto"></param>
+            <returns>Devuelve el codigo de estado</returns>
+        </member>
+        <member name="M:Capa_DAL.clsManejadoraDeptoDAL.EliminarDeptoDAL(System.Int32)">
+            <summary>
+            Metodo que elimina un departamento de la base de datos
+            Precondiciones: Le debe llegar un id de un departamento
+            </summary>
+            <param name="id"></param>
+            <returns>Devuelve el codigo de estado</returns>
+        </member>
+        <member name="M:Capa_DAL.clsManejadoraPersonaDAL.InsertarPersonaDAL(Capa_Entities.clsPersona)">
+            <summary>
+            Metodo que inserta en la base de datos una persona 
+            Precondiciones: Le tiene que llegar una persona
+            </summary>
+            <param name="pers"></param>
+            <returns>Devuelve el codigo de estado</returns>
+        </member>
+        <member name="M:Capa_DAL.clsManejadoraPersonaDAL.EditarPersonaDAL(Capa_Entities.clsPersona)">
+            <summary>
+            Metodo que edita una persona de la base de datos
+            Precondiciones: Le debe llegar una persona
+            </summary>
+            <param name="pers"></param>
+            <returns>Devuelve el codigo de estado</returns>
+        </member>
+        <member name="M:Capa_DAL.clsManejadoraPersonaDAL.EliminarPersonaDAL(System.Int32)">
+            <summary>
+            Metodo que elimina una persona de la base de datos
+            Precondiciones: Le tiene que llegar el id de una persona 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

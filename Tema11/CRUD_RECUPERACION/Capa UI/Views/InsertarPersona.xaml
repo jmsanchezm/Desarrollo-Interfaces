@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Capa_UI.Views.InsertarPersona"
+             xmlns:local="clr-namespace:Capa_UI.ViewModels"
+             Title="InsertarPersona">
+
+    <ContentPage.BindingContext>
+        <local:clsInsertarPersona />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry
+            Placeholder="Nombre"
+            Text="{Binding Pers.Nombre}" />
+
+        <Entry
+            Placeholder="Apellido"
+            Text="{Binding Pers.Apellido}" />
+
+        <Entry
+            Placeholder="Direccion"
+            Text="{Binding Pers.Direccion}" />
+
+        <Entry 
+            Placeholder="Telefono"
+            Text="{Binding Pers.Tlf}" />
+
+        <DatePicker
+            Date="{Binding Pers.FNac}" />
+
+        <Entry
+            Placeholder="URL de la foto"
+            Text="{Binding Pers.Foto}" />
+
+        <Picker
+            Title="NombreDepartamento"
+            ItemsSource="{Binding Departamentos.ListadoDeptos}"
+            SelectedItem="{Binding Pers.IdDepartamento}" />
+
+        <Button
+            Text="Insertar"
+            Command="{Binding InsertarPersonaCommand}" />
+
+    </VerticalStackLayout>
+</ContentPage>

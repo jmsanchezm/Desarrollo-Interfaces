@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Capa_UI.Views.ListadoDepartamentos"
+             xmlns:local="clr-namespace:Capa_UI.ViewModels"
+             Title="ListadoDepartamentos">
+
+    <ContentPage.BindingContext>
+        <local:clsListadoDepartamentosConDeptoSelect/>
+    </ContentPage.BindingContext>
+
+    
+    
+    <VerticalStackLayout>
+
+  
+        <HorizontalStackLayout HorizontalOptions="Center"
+                               Padding="10"
+                               Spacing="20">
+
+            <Entry Placeholder="Buscar departamento" 
+                    Text="{Binding Texto}"
+                    PlaceholderColor="DarkGray"
+                    WidthRequest="200" />
+
+            <ImageButton
+                Source="lupa.png"
+                Command="{Binding FiltrarCommand}"
+                WidthRequest="15"
+                Background="DarkGray"
+                CornerRadius="5"/>
+
+            <Button
+                Text="Insertar departamento"
+                Padding="10,0,10,0"
+                Command="{Binding InsertarCommand}"
+                Background="DarkGray"
+                TextColor="Black"/>
+
+            <Button
+                Text="Editar departamento"
+                Padding="10,0,10,0"
+                Command="{Binding EditarCommand}"
+                Background="DarkGray"
+                TextColor="Black"/>
+
+            <Button
+                Text="Eliminar departamento"
+                Padding="10,0,10,0"
+                Command="{Binding EliminarCommand}"
+                Background="DarkGray"
+                TextColor="Black"/>
+        </HorizontalStackLayout>
+
+        <ScrollView>
+            <VerticalStackLayout>
+                <ListView x:Name="listadoDepartamentos"
+                  ItemsSource="{Binding Listado}"
+                  SelectedItem="{Binding DeptoSeleccionado}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <HorizontalStackLayout Spacing="10">
+                                    <Label Text="{Binding Nombre}"
+                                           TextColor="Black"
+                                           Padding="10"/>
+                                </HorizontalStackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </VerticalStackLayout>
+</ContentPage>

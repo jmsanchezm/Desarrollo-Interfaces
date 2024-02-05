@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Capa DAL</name>
+    </assembly>
+    <members>
+        <member name="M:Capa_DAL.clsConexion.getConexion">
+            <summary>
+            Metodo que devuelve la cadena de conexion
+            Precondiciones: no hay
+            Postcondiciones: devuelve un string con la cadena de conexion
+            </summary>
+            <returns>Cadena conexion</returns>
+        </member>
+        <member name="M:Capa_DAL.clsListadoDepartamentosDAL.listadoCompletoDepartamento">
+            <summary>
+            Metodo que devuelve un listado completo de departamentos de una API
+            Precondiciones: No hay
+            Postcondiciones: Se devuelve un listado de departamentos
+            </summary>
+            <returns>Listado de departamentos</returns>
+        </member>
+        <member name="M:Capa_DAL.clsListadoPersonasDAL.listadoCompletoPersonas">
+            <summary>
+            Metodo que devuelve un listado completo de personas de una API
+            Precondiciones: No hay
+            Postcondiciones: Se devuelve un listado de personas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Capa_DAL.Manejadoras.clsManejadoraDepartamentoDAL.Insert(Capa_Entities.clsDepartamento)">
+            <summary>
+            Función que inserta un departamento en la API
+            Preconditions: Tiene que llegar un departamento
+            Postconditions: Se inserta el departamento en la API
+            </summary>
+            <param name="depto"></param>
+            <returns>Código de estado</returns>
+        </member>
+        <member name="M:Capa_DAL.Manejadoras.clsManejadoraDepartamentoDAL.Delete(System.Int32)">
+            <summary>
+            Función que elimina un departamento de la API
+            Preconditions: Tiene que llegar un id de un departamento
+            Preconditions: Se elimina el departamento de la API
+            </summary>
+            <param name="id"></param>
+            <returns> Código de estado </returns>
+        </member>
+        <member name="M:Capa_DAL.Manejadoras.clsManejadoraDepartamentoDAL.Update(Capa_Entities.clsDepartamento)">
+            <summary>
+            Función que actualiza un departamento de la API
+            Preconditions: Tiene que llegar un departamento
+            Postconditions: Se actualiza el departamento de la API
+            </summary>
+            <param name="depto"></param>
+            <returns> Código de estado </returns>
+        </member>
+        <member name="M:Capa_DAL.Manejadoras.clsManejadoraPersonaDAL.Insert(Capa_Entities.clsPersona)">
+            <summary>
+            Función que inserta una persona en la API
+            Preconditions: Tiene que llegar una persona
+            Postconditions: Se inserta la persona en la API
+            </summary>
+            <param name="pers"></param>
+            <returns> Código de estado </returns>
+        </member>
+        <member name="M:Capa_DAL.Manejadoras.clsManejadoraPersonaDAL.Delete(System.Int32)">
+            <summary>
+            Función que elimina a una persona de la API 
+            Preconditions: Tiene que llegar un id de una persona
+            Postconditions: Se elimina la persona de la API
+            </summary>
+            <param name="id"></param>
+            <returns> Código de estado  </returns>
+        </member>
+        <member name="M:Capa_DAL.Manejadoras.clsManejadoraPersonaDAL.Update(Capa_Entities.clsPersona)">
+            <summary>
+            Función que actualiza a una persona de la API
+            Preconditions: Tiene que llegar una persona
+            Postconditions: Se actualiza la persona de la API
+            </summary>
+            <param name="pers"></param>
+            <returns> Código de estado </returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Capa BL</name>
+    </assembly>
+    <members>
+        <member name="M:Capa_BL.clsListadoDepartamentoBL.listadoDepartamento">
+            <summary>
+            Metodo que devuelve un listado completo de departamentos de una API
+            Con reglas de negocio
+            </summary>
+            <returns>listado de departamentos</returns>
+        </member>
+        <member name="M:Capa_BL.clsListadoPersonasBL.listadoPersonas">
+            <summary>
+            Función que devuelve un listado de personas con la regla de negocio aplicada
+            Precondiciones: No hay
+            Postcondiciones: Se devuelve un listado de personas filtrado o no, dependiendo del día de la semana
+            </summary>
+            <returns>Listado de personas</returns>
+        </member>
+        <member name="M:Capa_BL.clsListadoPersonasBL.mayorEdad(System.Collections.Generic.List{Capa_Entities.clsPersona})">
+            <summary>
+            Función que filtra un listado de personas por mayores de edad
+            Precondiciones: Tiene que llegar un listado de personas
+            Postcondiciones: Se devuelve un listado de personas filtrado por mayores de edad
+            </summary>
+            <param name="listado"></param>
+            <returns> Listado de personas mayores de edad</returns>
+        </member>
+        <member name="M:Capa_BL.ManejadorasBL.clsManejadoraDepartamentoBL.Insert(Capa_Entities.clsDepartamento)">
+            <summary>
+            Función que inserta un departamento en la API
+            Preconditions: Tiene que llegar un departamento
+            Postconditions: Se inserta el departamento en la API
+            </summary>
+            <param name="depto"></param>
+            <returns> Código de estado </returns>
+        </member>
+        <member name="M:Capa_BL.ManejadorasBL.clsManejadoraDepartamentoBL.Delete(System.Int32)">
+            <summary>
+            Función que elimina a un departamento de la API
+            </summary>
+            <param name="id"></param>
+            <returns>Código de estado</returns>
+        </member>
+        <member name="M:Capa_BL.ManejadorasBL.clsManejadoraDepartamentoBL.Update(Capa_Entities.clsDepartamento)">
+            <summary>
+            Función que actualiza a un departamento de la API
+            Preconditions: Tiene que llegar un departamento
+            Postconditions: Se actualiza el departamento en la API
+            </summary>
+            <param name="depto"></param>
+            <returns>Código de estado</returns>
+        </member>
+        <member name="M:Capa_BL.ManejadorasBL.clsManejadoraPersonaBL.Insert(Capa_Entities.clsPersona)">
+            <summary>
+            Función que inserta una persona en la API
+            Preconditions: Tiene que llegar una persona
+            Postconditions: Se inserta la persona en la API
+            </summary>
+            <param name="pers"></param>
+            <returns>Código de estado</returns>
+        </member>
+        <member name="M:Capa_BL.ManejadorasBL.clsManejadoraPersonaBL.Delete(System.Int32)">
+            <summary>
+            Función que elimina a una persona de la API
+            Con la condición de que no sea domingo
+            Si es domingo, no se elimina
+            Preconditions: Tiene que llegar un id de una persona
+            Postconditions: Se elimina la persona de la API si no es domingo
+            </summary>
+            <param name="id"></param>
+            <returns> Código de estado</returns>
+        </member>
+        <member name="M:Capa_BL.ManejadorasBL.clsManejadoraPersonaBL.Update(Capa_Entities.clsPersona)">
+            <summary>
+            Función que actualiza a una persona de la API 
+            Preconditions: Tiene que llegar una persona
+            Postconditions: Se actualiza la persona en la API
+            </summary>
+            <param name="pers"></param>
+            <returns>Código de estado</returns>
+        </member>
+    </members>
+</doc>

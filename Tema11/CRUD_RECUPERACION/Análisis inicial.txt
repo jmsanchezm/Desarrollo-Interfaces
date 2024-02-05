@@ -1,0 +1,35 @@
+Análisis inicial
+
+Capa DAL:
+	clsListadoPersonasDAL:
+		public async static Task<List<clsPersona>> listadoCompletoPersonas
+	clsListadoDepartamentosDAL
+		public async static Task<List<clsDepartamento>> listadoCompletoDeptos
+	clsConexion
+	clsManejadoraPersonaDAL:
+		InsertarPersonaDAL
+		EliminarPersonaDAL
+		EditarPersonaDAL
+
+	clsManejadoraDeptoDAL:
+		InsertarDeptoDAL
+		EliminarDeptoDAL
+
+Capa BL:
+	clsListadoPersonas
+	clsListadoDepartamentos
+	Manejadoras:
+		clsInsertarBL
+		clsEliminarBL
+		clsEditarBL
+
+Capa Entities:
+	clsPersona
+	clsDepartamentos
+
+Capa UI:
+	Models:
+		PersonaConDepto
+	ViewModels:
+		ListadoPersonasConDepto
+		

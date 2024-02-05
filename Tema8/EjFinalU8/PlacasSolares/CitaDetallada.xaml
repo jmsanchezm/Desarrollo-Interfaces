@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacasSolares.CitaDetallada"
+             Title="CitaDetallada">
+
+    <AbsoluteLayout>
+        
+        <VerticalStackLayout>
+
+            <Image Source="{Binding UrlImage}"
+                   Aspect="AspectFill"
+                   HeightRequest="200"/>
+
+            <Label Text="{Binding NombreCasa}"
+                       x:Name="nombreCasa"
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       Margin="20"/>
+
+            <Label
+                Text="Telefono:"
+                Margin="20,0,0,0"
+                FontAttributes="Bold"/>
+        
+            <Label Text="{Binding Telefono}"
+                   FontSize="15"
+                   Margin="40,5,0,0"/>
+
+            <Label
+                Text="Direccion:"
+                Margin="20,20,0,0"
+                FontAttributes="Bold"/>
+
+            <Label Text="{Binding Direccion}"
+                   x:Name="direccion"
+                   FontSize="15"
+                   Margin="40,0,0,0"
+                   />
+
+            <Label
+                Text="Notas"
+                Margin="20,20,0,0"
+                FontAttributes="Bold"/>
+            <Entry
+                Placeholder="Introduzca alguna observación "
+                Text="{Binding notas}"
+                BackgroundColor="#EBEBEB"
+                WidthRequest="350"
+                Margin="20,10,25,0"/>
+
+        
+            <HorizontalStackLayout >
+                <CheckBox IsChecked="{Binding Apto}"
+              Color="#51B178"/>
+                <Label
+                    Text="Casa Apta"
+                    VerticalOptions="Center"
+                    TextColor="#51B178"/>
+            </HorizontalStackLayout>
+
+            <Button
+                Text="Guardar"
+                BackgroundColor="#51B178"
+                WidthRequest="100"
+                CornerRadius="100"/>
+
+            <!--Este boton sirve para que al clicarlo se te abra el navegador,
+    en Google Maps, para poder mostrarte la ruta hacia la direccion
+            <Button
+                Text="¿Como llegar?"
+                Background="#51B178"
+                TextColor="White"
+                FontAttributes="Bold"
+                HorizontalOptions="Start"
+                Margin="20"
+                HeightRequest="50"
+                Clicked="comoLlegarClick"
+                CornerRadius="100"/> -->
+
+        </VerticalStackLayout>
+    </AbsoluteLayout>
+</ContentPage>
