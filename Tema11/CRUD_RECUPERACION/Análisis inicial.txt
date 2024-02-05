@@ -1,35 +1,108 @@
 Análisis inicial
 
 Capa DAL:
-	clsListadoPersonasDAL:
-		public async static Task<List<clsPersona>> listadoCompletoPersonas
-	clsListadoDepartamentosDAL
-		public async static Task<List<clsDepartamento>> listadoCompletoDeptos
-	clsConexion
-	clsManejadoraPersonaDAL:
-		InsertarPersonaDAL
-		EliminarPersonaDAL
-		EditarPersonaDAL
 
-	clsManejadoraDeptoDAL:
-		InsertarDeptoDAL
-		EliminarDeptoDAL
+	public class clsListadoPersonasDAL:
+		public async static Task<List<clsPersona>> listadoCompletoPersonas()
+
+	public class clsListadoDepartamentosDAL:
+		public async static Task<List<clsDepartamento>> listadoCompletoDeptos()
+
+	public class clsConexion:
+		public static string getConnection()
+
+	public class clsManejadoraPersonaDAL:
+		public async static Task<HttpStatusCode> InsertarPersonaDAL(clsPersona pers)
+		public async static Task<HttpStatusCode> EliminaPersonaDAL(int id)
+		public async statis Task<HttpStatusCode> EditarPersonaDAL(clsPersona pers)
+
+	public class clsManejadoraDeptoDAL:
+		public async static Task<HttpStatusCode> InsertarDeptoDAL(clsDepartamento depto)
+		public async static Task<HttpStatusCode> EliminarDeptoDAL(int id)
+		public async static Task<HttpStatusCode> EditarDeptoDAL(clsDepartamento depto)
+
 
 Capa BL:
-	clsListadoPersonas
-	clsListadoDepartamentos
-	Manejadoras:
-		clsInsertarBL
-		clsEliminarBL
-		clsEditarBL
+	public class clsListadoPersonasBL:
+		public async static Task<List<clsPersona>> listadoCompletoPersonas()
+
+	public class clsListadoDeptoBL:
+		public async static Task<List<clsDepartamento>> listadoCompletoDeptos()
+
+	public class clsManejadoraPersonaBL:
+		public async static Task<HttpStatusCode> InsertarPersonaDAL(clsPersona pers)
+		public async static Task<HttpStatusCode> EliminaPersonaDAL(int id)
+		public async static Task<HttpStatusCode> EditarPersonaDAL(clsPersona pers)
+
+	public class clsManjeadoraDeptoBL:
+		public async static Task<HttpStatusCode> InsertarDeptoDAL(clsDepartamento depto)
+		public async static Task<HttpStatusCode> EliminarDeptoDAL(int id)
+		public async static Task<HttpStatusCode> EditarDeptoDAL(clsDepartamento depto)
+
 
 Capa Entities:
-	clsPersona
-	clsDepartamentos
+	public class clsPersona
+	public class clsDepartamento
+
 
 Capa UI:
 	Models:
-		PersonaConDepto
+		public class clsPersonaConDepto: clsPersona
+		public class clsVMBase
+		public class DelegateCommand
+
 	ViewModels:
-		ListadoPersonasConDepto
-		
+		public class clsListadoPersonasConDeptoConPersonaSelect:
+			private List<clsPersonaConDepto> listadoAntiguo
+			private ObservableCollection<clsPersonaConDepto>listado
+			private clsPersonaConDepto persSeleccionada
+
+
+		public class clsListadoDeptosConDeptoSelect:
+			private List<clsDepartamento> listadoAntiguo	
+			privateObservableCollection<clsDepartamento> listado
+			private clsDepartamento deptoSeleccionado	
+
+		public class clsInsertarPersona
+			private clsPersona pers
+			private clsDepartamento deptoSelect
+			private ObservableCollection<clsDepartamento> listado
+			private DelegateCommand guardarCommand
+			private DelegateCommand cancelarCommand
+			
+
+		public class clsEditarPersona
+			private clsPersonaConDepto pers
+			private DelegateCommand guardarCommand
+			private DelegateCommand cancelarCommand
+
+		public class clsEliminarPersona
+			private int id	
+			private DelegateCommand guardarCommand
+			private DelegateCommand cancelarCommand
+
+		public class clsInsertarDepto
+			private clsDepartamento depto
+			private DelegateCommand guardarCommand
+			private DelegateCommand cancelarCommand
+
+		public class clsEditarDepto
+			private clsDepartamento depto
+			private DelegateCommand guardarCommand
+			private DelegateCommand cancelarCommand
+
+		public class cls EliminarDepto
+			private int id
+			private DelegateCommand guardarCommand
+			private DelegateCommand cancelarCommand
+
+	Views:
+		PagInicial
+		ListadoPersonas
+
+		InsertarPersona
+		EditarPersona
+	
+		ListadoDepartamentos
+		InsertarDepartamento
+		EditarDepartamento
