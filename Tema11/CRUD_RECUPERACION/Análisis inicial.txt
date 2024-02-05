@@ -30,14 +30,14 @@ Capa BL:
 		public async static Task<List<clsDepartamento>> listadoCompletoDeptos()
 
 	public class clsManejadoraPersonaBL:
-		public async static Task<HttpStatusCode> InsertarPersonaDAL(clsPersona pers)
-		public async static Task<HttpStatusCode> EliminaPersonaDAL(int id)
-		public async static Task<HttpStatusCode> EditarPersonaDAL(clsPersona pers)
+		public async static Task<HttpStatusCode> InsertarPersonaBL(clsPersona pers)
+		public async static Task<HttpStatusCode> EliminaPersonaBL(int id)
+		public async static Task<HttpStatusCode> EditarPersonaBL(clsPersona pers)
 
 	public class clsManjeadoraDeptoBL:
-		public async static Task<HttpStatusCode> InsertarDeptoDAL(clsDepartamento depto)
-		public async static Task<HttpStatusCode> EliminarDeptoDAL(int id)
-		public async static Task<HttpStatusCode> EditarDeptoDAL(clsDepartamento depto)
+		public async static Task<HttpStatusCode> InsertarDeptoBL(clsDepartamento depto)
+		public async static Task<HttpStatusCode> EliminarDeptoBL(int id)
+		public async static Task<HttpStatusCode> EditarDeptoBL(clsDepartamento depto)
 
 
 Capa Entities:
@@ -47,62 +47,66 @@ Capa Entities:
 
 Capa UI:
 	Models:
-		public class clsPersonaConDepto: clsPersona
+		public class clsPersonaConDepto: clsVMBase
+			private string nombreDepto;
+ 			private clsPersona persona;
+ 			private List<clsDepartamento> departamentos;
 		public class clsVMBase
 		public class DelegateCommand
 
 	ViewModels:
-		public class clsListadoPersonasConDeptoConPersonaSelect:
-			private List<clsPersonaConDepto> listadoAntiguo
-			private ObservableCollection<clsPersonaConDepto>listado
-			private clsPersonaConDepto persSeleccionada
+		public class clsListadoPersonasConDeptoConPersonaSelect: clsVMBase
+			private clsPersonaConDepto personaConDeptoSeleccionada;
+ 			private ObservableCollection<clsPersonaConDepto> listado;
+ 			private List<clsPersona> listadoPersonas;
+ 			private DelegateCommand insertarCommand;
+			private DelegateCommand editarCommand;
+ 			private DelegateCommand eliminarCommand;
+ 			private DelegateCommand filtrarCommand;
+			private bool isRunning;
+ 			private string texto;
 
 
-		public class clsListadoDeptosConDeptoSelect:
-			private List<clsDepartamento> listadoAntiguo	
-			privateObservableCollection<clsDepartamento> listado
-			private clsDepartamento deptoSeleccionado	
+		public class clsListadoDeptosConDeptoSelec: clsVMBase
+			private clsDepartamento deptoSeleccionado;
+			private ObservableCollection<clsDepartamento> listado;
+			private DelegateCommand insertarCommand;
+			private DelegateCommand editarCommand;
+			private DelegateCommand eliminarCommand;
+			private DelegateCommand filtrarCommand;
+			private bool isRunning;
+			private string texto;	
 
-		public class clsInsertarPersona
-			private clsPersona pers
-			private clsDepartamento deptoSelect
-			private ObservableCollection<clsDepartamento> listado
-			private DelegateCommand guardarCommand
-			private DelegateCommand cancelarCommand
+		public class clsInsertarPersona : clsVMBase
+			clsPersona pers;
+			DelegateCommand guardarCommand;
+			DelegateCommand cancelarCommand;
+			ObservableCollection<clsDepartamento> listadoDeptos;
+			clsDepartamento depto;
 			
 
-		public class clsEditarPersona
-			private clsPersonaConDepto pers
-			private DelegateCommand guardarCommand
-			private DelegateCommand cancelarCommand
+		public class clsEditarPersona : clsVMBase
+			private clsPersonaConDepto persona;
+			private DelegateCommand guardarCommand;
+			private DelegateCommand cancelarCommand;    
+			private ObservableCollection<clsDepartamento> listadoDeptos;
 
-		public class clsEliminarPersona
-			private int id	
-			private DelegateCommand guardarCommand
-			private DelegateCommand cancelarCommand
+		public class clsInsertarDepto : clsVMBase
+			private clsDepartamento depto;
+			private DelegateCommand guardarCommand;
+			private DelegateCommand cancelarCommand;
 
-		public class clsInsertarDepto
+		public class clsEditarDepto : clsVMBase
 			private clsDepartamento depto
 			private DelegateCommand guardarCommand
 			private DelegateCommand cancelarCommand
 
-		public class clsEditarDepto
-			private clsDepartamento depto
-			private DelegateCommand guardarCommand
-			private DelegateCommand cancelarCommand
-
-		public class cls EliminarDepto
-			private int id
-			private DelegateCommand guardarCommand
-			private DelegateCommand cancelarCommand
 
 	Views:
 		PagInicial
 		ListadoPersonas
-
 		InsertarPersona
 		EditarPersona
-	
 		ListadoDepartamentos
 		InsertarDepartamento
 		EditarDepartamento
